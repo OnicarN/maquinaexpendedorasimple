@@ -25,10 +25,10 @@ public class MaquinaExpendedoraSimple {
     }
     
     
-    public MaquinaExpendedoraSimple(int precioBillete, String estacionDestino) {
-         this.precioBillete = precioBillete;
+    public MaquinaExpendedoraSimple(int precioDelBillete, String estacionDeDestino) {
+         precioBillete = precioDelBillete;
          estacionOrigen= "Leon";
-         this.estacionDestino = estacionDestino;
+         estacionDestino = estacionDeDestino;
          balanceClienteActual = 0;
          totalDineroAcumulado = 0; 
     }
